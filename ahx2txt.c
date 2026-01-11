@@ -306,7 +306,7 @@ void printAHXHeaderInfo(struct AHX_MODULE *ahxMod)
 /** printAHXSamples: print the samples info						**/
 /*****************************************************************/
 
-void printWaveLen(value) {
+void printWaveLen(int value) {
 	switch(value) {
 		case 0: printf("WaveLen: 04\n"); break;
 		case 1: printf("WaveLen: 08\n"); break;
